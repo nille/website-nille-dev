@@ -1,6 +1,6 @@
 baseURL = "https://nille.dev"
 languageCode = "sv-se"
-defaultContentLanguage = "sv"
+defaultContentLanguage = "sv-se"
 title = "Nille af Ekenstam"
 theme = "hermit"
 # enableGitInfo = true
