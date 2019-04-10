@@ -1,0 +1,20 @@
+language: go
+go:
+  - 1.12
+
+sudo: false
+
+install:
+  - go get github.com/spf13/hugo
+
+script:
+  - hugo
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: website-nille-dev
+    region: eu-north-1
+    skip_cleanup: true
+    
