@@ -6,6 +6,8 @@ sudo: false
 
 install:
   - go get github.com/spf13/hugo
+  - npm install -g travis-ci-cloudfront-invalidation
+  - npm install
 
 script:
   - hugo
@@ -18,3 +20,7 @@ deploy:
     region: eu-north-1
     skip_cleanup: true
     
+after_deploy:
+- travis-ci-cloudfront-invalidation -a $AWS_ACCESS_KEY -s $AWS_SECRET_KEY -c E358FDGEVL9W5T -i '/*' -b $TRAVIS_BRANCH -p $TRAVIS_PULL_REQUEST -o 'master,stage'
+
+     
