@@ -22,5 +22,3 @@ deploy:
     
 after_deploy:
 - travis-ci-cloudfront-invalidation -a $AWS_ACCESS_KEY -s $AWS_SECRET_KEY -c E358FDGEVL9W5T -i '/*' -b $TRAVIS_BRANCH -p $TRAVIS_PULL_REQUEST -o 'master,stage'
-
-     
