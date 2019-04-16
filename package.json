@@ -1,12 +1,23 @@
 {
   "name": "website-nille-dev",
   "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.com/nille/website-nille-dev.svg?branch=master)](https://travis-ci.com/nille/website-nille-dev)",
   "main": "index.js",
-  "repository": "git@github.com:nille/website-nille-dev.git",
-  "author": "Nille af Ekenstam <n@nille.dev>",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nille/website-nille-dev.git"
+  },
+  "author": "Nille af Ekenstam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nille/website-nille-dev/issues"
+  },
+  "homepage": "https://github.com/nille/website-nille-dev#readme",
   "dependencies": {
-    "bulma": "^0.7.4",
-    "webpack": "^4.30.0"
+    "jquery": "^3.4.0",
+    "semantic-ui": "^2.4.2"
   }
 }
