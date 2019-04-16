@@ -1,0 +1,12 @@
+{
+  "name": "website-nille-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nille/website-nille-dev.git",
+  "author": "Nille af Ekenstam <n@nille.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "webpack": "^4.30.0"
+  }
+}
