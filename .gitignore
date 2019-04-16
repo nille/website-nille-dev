@@ -1,5 +1,7 @@
 # Hugo default output directory
 /public
+/node_modules
+
 
 ## OS Files
 # Windows
