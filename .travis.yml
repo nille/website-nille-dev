@@ -7,7 +7,6 @@ sudo: false
 install:
   - go get github.com/spf13/hugo
   - npm install -g travis-ci-cloudfront-invalidation
-  - npm install
 
 script:
   - hugo
