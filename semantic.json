@@ -11,12 +11,13 @@
       "packaged": "../static/semantic-ui/",
       "uncompressed": "../static/semantic-ui/components/",
       "compressed": "../static/semantic-ui/components/",
-      "themes": "../static/semantic-ui/themes/"
+      "themes": "dist/themes/"
     },
-    "clean": "../static/semantic-ui/"
+    "clean": "dist/"
   },
   "permission": false,
   "autoInstall": true,
   "rtl": false,
-  "version": "2.4.2"
+  "components": ["reset", "site", "button", "container", "divider", "flag", "header", "icon", "image", "input", "label", "list", "loader", "rail", "reveal", "segment", "step", "breadcrumb", "form", "grid", "menu", "message", "table", "ad", "card", "comment", "feed", "item", "statistic", "accordion", "calendar", "checkbox", "dimmer", "dropdown", "embed", "modal", "nag", "placeholder", "popup", "progress", "slider", "rating", "search", "shape", "sidebar", "sticky", "tab", "text", "toast", "transition", "api", "form", "state", "visibility"],
+  "version": "2.7.4"
 }
