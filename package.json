@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/nille/website-nille-dev#readme",
   "dependencies": {
+    "fomantic-ui": "^2.7.4",
+    "inquirer": "^6.3.1",
     "jquery": "^3.4.0",
-    "semantic-ui": "^2.4.2"
+    "lodash": ">=4.17.11"
   }
 }

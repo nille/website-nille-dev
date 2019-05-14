@@ -3,13 +3,13 @@
 # https://nille.dev
 This is the code and content for the website https://nille.dev (and, of course, https://www.nille.dev). 
 
-## Semantic UI
-This theme uses [Semantic UI](https://semantic-ui.com) and the built framework files are stored within 'static/semantic-ui/'.
-To configure Semantic UI you edit the files in `/semantic` and then cd in to that directory and run `gulp build`.
+## Fomantiv UI
+This theme uses [Fomantic UI](https://fomantic-ui.com) and the built framework files are stored within 'static/semantiv-ui/'.
+To configure Fomantic UI you edit the files in `/semantic` and then cd in to that directory and run `gulp build`.
 
-You can also update Semantic UI by `npm update`and then cd into `/semantic` followed by `gulp build`.
+You can also update Fomantic UI by `npm update`and then cd into `/semantic` followed by `gulp build`.
 
-More information [here](https://semantic-ui.com/introduction/build-tools.html).
+More information [here](https://fomantic-ui.com/introduction/build-tools.html).
 
 ## Framework
 This site is built using [Hugo](https://gohugo.io/). 
