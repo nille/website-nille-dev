@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nille
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nille.dev
+  * I am nille (https://keybase.io/nille) on keybase.
+  * I have a public key ASD2Q6xpnWCYcLxiN9QxfyRwaraVEZz8kAMUpFEuGgRFgQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f643ac699d609870bc6237d4317f24706ab695119cfc900314a4512e1a0445810a",
+      "host": "keybase.io",
+      "kid": "0120f643ac699d609870bc6237d4317f24706ab695119cfc900314a4512e1a0445810a",
+      "uid": "c7bafe29619e3096f950ace395829019",
+      "username": "nille"
+    },
+    "merkle_root": {
+      "ctime": 1557839696,
+      "hash": "827d7d3c77eccc40f5e261cbef18c09645aa0e51f0fbbef7543a60fe58be581dc51440dd9a07d6cd56e47212945d55db11829af07e756aba72a989a11e3ba66e",
+      "hash_meta": "fc4b511ca2efd80aa1057d3c4579727e023e9efcbe0f86075977e0b62c810125",
+      "seqno": 5367892
+    },
+    "service": {
+      "entropy": "JVPZ1W+/1WeJUFr9jhb49d+6",
+      "hostname": "nille.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1557839710,
+  "expire_in": 504576000,
+  "prev": "e4f4b893792785047d888a93f27f54e8899fee9b1b1ec516d047d58bf82cefa8",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9kOsaZ1gmHC8YjfUMX8kcGq2lRGc/JADFKRRLhoERYEKp3BheWxvYWTESpcCKsQg5PS4k3knhQR9iIqT8n9U6Imf7psbHsUW0EfVi/gs76jEIDiNLzfiwUVu5R0WTRDmVqHPT8XkESFAArwhduFijldZAgHCo3NpZ8RAfco5+n247WbrqQT6F8p9ifta4zhA8HvXt3dSbvCasAb6SF5IHqQfxJe/AnOdJ6o0GkUk7bfvTiaCexUQcUF+D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF3UqzGeR7gMeZFRaBAcP9d4kfp6SUhlN2ciOIokN4Oho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nille
+
+==================================================================
